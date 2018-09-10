@@ -1,4 +1,4 @@
-package soso.example.rxjava.create;
+package example.create;
 
 import io.reactivex.Observable;
 
@@ -8,7 +8,7 @@ public class CreatebyArray {
 		System.out.print("fromArray() -> ");
 		Observable.fromArray(integerArray).subscribe(data -> System.out.print(data + " "));
 
-		// RxJavaì—ì„œëŠ” ëª…ì‹œì  ëž˜í¼ íƒ€ìž…ìœ¼ë¡œ ì •ì˜í•œ ë°°ì—´ì˜ ë°ì´í„°ë§Œ ì œëŒ€ë¡œ ì¶œë ¥ë¨ -> ì™œ ì´ëŸ°ê±°ì§€?
+		// RxJava?—?„œ?Š” ëª…ì‹œ?  ?ž˜?¼ ???ž…?œ¼ë¡? ? •?˜?•œ ë°°ì—´?˜ ?°?´?„°ë§? ? œ??ë¡? ì¶œë ¥?¨ -> ?™œ ?´?Ÿ°ê±°ì??
 		int[] integerArray2 = new int[] { 100, 200, 300, 400, 500 };
 		System.out.print("\n\nfromArray2() -> ");
 		Observable.fromArray(integerArray2).subscribe(data -> System.out.print(data + " "));

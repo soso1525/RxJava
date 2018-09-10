@@ -1,10 +1,10 @@
-package soso.example.rxjava.coldtohot.subject;
+package example.coldtohot;
 
-import io.reactivex.subjects.ReplaySubject;
+import io.reactivex.subjects.PublishSubject;
 
-public class ReplaySubjectExample {
+public class PublishSubjectExample {
 	public static void main(String[] args) {
-		ReplaySubject<String> subject = ReplaySubject.create();
+		PublishSubject<String> subject = PublishSubject.create();
 		subject.subscribe(data -> System.out.println("Subscriber #1 => " + data));
 		subject.onNext("1");
 		subject.onNext("3");

@@ -1,4 +1,4 @@
-package soso.example.rxjava.coldtohot.subject;
+package example.coldtohot;
 
 import io.reactivex.subjects.BehaviorSubject;
 

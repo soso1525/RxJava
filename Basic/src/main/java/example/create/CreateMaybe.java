@@ -1,4 +1,4 @@
-package soso.example.rxjava.create;
+package example.create;
 
 import io.reactivex.Maybe;
 import io.reactivex.Observable;
