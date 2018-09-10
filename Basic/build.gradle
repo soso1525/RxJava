@@ -8,7 +8,18 @@ mainClassName = 'App'
 
 dependencies {
     compile 'com.google.guava:guava:23.0'
+	
 	compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.2'
+	
+	compile 'com.squareup.retrofit2:retrofit:2.0.2'
+	compile 'com.squareup.retrofit2:converter-gson:2.0.2'
+	
+	compile 'com.squareup.okhttp3:okhttp:3.2.0'
+	
+	compile 'org.apache.commons:commons-lang3:3.1'
+	
+	compile "com.github.akarnokd:rxjava2-extensions:0.17.5"
+
 
     testCompile 'junit:junit:4.12'
 }
